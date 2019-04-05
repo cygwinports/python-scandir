@@ -1,0 +1,13 @@
+# included in stdlib since 3.5
+PYTHON_WHEEL_VERSIONS=2
+inherit python-wheel
+
+NAME="python-scandir"
+VERSION=1.10.0
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Directory iterator module for Python 2"
+DESCRIPTION="scandir() is a directory iteration function like os.listdir(),
+with an increase the speed of os.walk() by 2-20 times (depending on the
+platform and file system) by avoiding unnecessary calls to os.stat() in most
+cases."
